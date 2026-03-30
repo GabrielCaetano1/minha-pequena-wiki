@@ -5,6 +5,10 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
+  --color-principal: var(--principal);
+  --color-principal2: var(--principal2);
+  --color-principal3: var(--principal3);
+
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-sans);
@@ -49,6 +53,10 @@
 }
 
 :root {
+  --principal: #010101;
+  --principal2: #ffca3a;
+  --principal3: #3674a8;
+
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);
   --card: oklch(1 0 0);
@@ -84,6 +92,10 @@
 }
 
 .dark {
+  --principal: #010101;
+  --principal2: #ffca3a;
+  --principal3: #3674a8;
+
   --background: oklch(0.145 0 0);
   --foreground: oklch(0.985 0 0);
   --card: oklch(0.205 0 0);
